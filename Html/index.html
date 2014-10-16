@@ -2,9 +2,131 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Marry Me</title>
+	<title>Us</title>
+	<style type="text/css">
+		a {
+			text-decoration: none;
+		}
+		.container {
+			position: relative;
+			width: 580px;
+			height: 520px;
+			margin: 70px auto;
+			padding-left: 60px;
+			background: #bebebe;
+			margin-bottom: 20px;
+		}
+
+		.imgContainer {
+			position: relative;
+			display: inline-block;
+			width: 230px;
+			height: 230px;
+			border-radius: 230px;
+			background-color: rgb(251, 150, 67);
+			overflow: hidden;
+			margin-top: 15px;
+		}
+
+		.topl {
+			background-color: blue;
+			width: 50%;
+			height: 50%;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			text-align: center;
+		}
+		.topr {
+			background: red;
+			width: 50%;
+			height: 50%;
+			top: 0;
+			right: 0;
+			position: absolute;
+			text-align: center;
+		}
+		.bottoml {
+			background-color: green;
+			position: absolute;
+			width: 50%;
+			height: 50%;
+			left: 0;
+			bottom: 0;
+			text-align: center;
+		}
+
+		.bottomr {
+			background-color: yellow;
+			position: absolute;
+			width: 50%;
+			height: 50%;
+			right: 0;
+			bottom: 0;
+			text-align: center;
+		}
+
+		.banner {
+			position: absolute;
+			height: 40px;
+			width: 100%;
+			overflow: hidden;
+			background-color: #FFF;
+			opacity: 0.3;
+			left: 0;
+			bottom: 10px;
+			text-align: center;
+			color: black;
+		}
+		.topBanner {
+			position: fixed;
+			width: 100%;
+			height: 46px;
+			background-color: rgba(251, 150, 67, 0.9);
+			top: 0;
+			left: 0;
+			box-shadow: 0 0 3px;
+		}
+
+		#img1 {
+			background: url(../img/image1.jpg) no-repeat -100px;
+		}
+		#img2 {
+			background: url(../img/image2.jpg) no-repeat;
+		}
+		#img3 {
+			background: url(../img/image3.jpg) no-repeat 0px -600px;
+		}
+		#img4 {
+			background: url(../img/image4.jpg) no-repeat 0 -160px;
+		}
+		
+	</style>
 </head>
 <body>
-	
+	<div class="topBanner"></div>
+	<div id="C1" class="container">
+		<div class="topl">
+			<div id="img1"class="imgContainer">
+				<a href="javascript:void();" class="banner">Thank You</a>
+			</div>
+		</div>
+		<div class="topr">
+			<div id="img2" class="imgContainer">
+				<a href="javascript:void();" class="banner">Thank You</a>
+			</div>
+		</div>
+		<div class="bottoml">
+			<div id="img3" class="imgContainer">
+				<a href="javascript:void();" class="banner">Thank You</a>
+			</div>
+		</div>
+		<div class="bottomr">
+			<div id="img4" class="imgContainer">
+				<a href="javascript:void();" class="banner">Thank You</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
